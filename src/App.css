@@ -1,0 +1,10 @@
+main {
+    background-color: #8e44ad;
+    background-image: linear-gradient(to bottom right, #8e44ad, #c39bd3);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
