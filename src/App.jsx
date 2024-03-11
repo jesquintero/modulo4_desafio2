@@ -1,14 +1,14 @@
+import { useState } from 'react'
 import './App.css'
 import Registro from './Components/Registro'
-import SocialButton from './Components/SocialButton'
 
-function App() {
+const App = () => {
+  const [mensaje, setMensaje] = useState("");
+  const [color, setColor] = useState("");
 
   return (
-    <>
-      <Registro />
-    </>
-  )
+    <Registro mensaje={mensaje} setMensaje={setMensaje} color={color} setColor={setColor} />
+  );
 }
 
-export default App
+export default App;

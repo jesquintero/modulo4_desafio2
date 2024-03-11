@@ -1,14 +1,20 @@
-main {
+.container-fluid {
     background-color: #8e44ad;
     background-image: linear-gradient(to bottom right, #8e44ad, #c39bd3);
     height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
 .svg-inline--fa {
     font-size: 30px;
+}
+
+.row {
+    background-color: #40e0d0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 15px;
 }
